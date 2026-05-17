@@ -11,7 +11,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: linear-gradient(to bottom right,#3AFFDE 0%, #5B9DFF 40%, #9F6BFF 60%, #FF34D2 100%);
+    background-image: linear-gradient(to bottom right,#000000 0%, #262626 40%, #383838 60%, #4F4F4F 100%);
     background-size: 200% 200%;
     animation: float 6s linear infinite alternate;
 }
@@ -40,7 +40,7 @@ header img{
 }
 
 header h3{
-    color: #63A0E6;
+    color: #000000;
     font-size: 1.35rem;
 }
 
@@ -52,12 +52,12 @@ main {
 }
 
 main a {
-    background:#9F6BFF;
+    background:#000000; 
     pad: 15px 0;
     text-decoration: none;
     color: #FFF;
     border-radius: 6px;
-    box-shadow: 10px 10px #63A0E6;
+    box-shadow: 10px 10px #C4BE58;
 }
 
 main a:hover {
@@ -87,6 +87,6 @@ main a:hover {
     }
     main a{
         padding: 10px 0;
-        box-shadow: 5px 5px #63A0E6;
+        box-shadow: 5px 5px #000000;
     }
 }
